@@ -1,4 +1,5 @@
 # The Love Calculator
+# create a simple love calculator program
 print("Welcome to the Love Calculator")
 name1 = input("What is your first name? \n").lower()
 name2 = input("What is their first name? \n").lower()
@@ -27,3 +28,4 @@ elif (love_score >= 40)  and (love_score <= 50):
     print(f"Your score is {love_score}, you can make it work")
 else: 
     print(f"Your score is {love_score}")
+
