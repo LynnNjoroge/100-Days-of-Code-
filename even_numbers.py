@@ -1,0 +1,9 @@
+#write a List Comprehension to create a new list called result. 
+# This new list should only contain the even numbers from the list numbers.
+
+numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+#Write your 1 line code 👇 below:
+result = [n for n in numbers if n % 2 == 0]
+
+print(result)
